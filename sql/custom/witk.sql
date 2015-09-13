@@ -10,6 +10,7 @@ Date: 14.09.2015 01:35:56
 -- ----------------------------
 -- Records 
 -- ----------------------------
+DELETE FROM `custom_texts` WHERE entry BETWEEN -2006065 AND -2006000;
 INSERT INTO `custom_texts` VALUES ('-2006000', 'Who is the Killer starts in %u...', null, null, 'Who is the Killer startet in %u...', null, null, null, null, null, '0', '0', '0', '0', null);
 INSERT INTO `custom_texts` VALUES ('-2006001', 'The game begins...', null, null, 'Das Spiel beginnt...', null, null, null, null, null, '0', '0', '0', '0', null);
 INSERT INTO `custom_texts` VALUES ('-2006002', 'You don\'t have enough free space in your inventory!', null, null, 'Du hast keinen freien Platz in deinem Rucksack!', null, null, null, null, null, '0', '0', '0', '0', null);
@@ -76,6 +77,8 @@ INSERT INTO `custom_texts` VALUES ('-2006062', 'You can\'t vote, because you are
 INSERT INTO `custom_texts` VALUES ('-2006063', 'You are not registered to this game anymore.', null, null, 'Du bist bei diesem Spiel nicht mehr angemeldet.', null, null, null, null, null, '0', '4', '0', '0', null);
 INSERT INTO `custom_texts` VALUES ('-2006064', 'You voted!', null, null, 'Du hast abgestimmt!', null, null, null, null, null, '0', '4', '0', '0', null);
 INSERT INTO `custom_texts` VALUES ('-2006065', 'This game doesn\'t exists anymore.', null, null, 'Dieses Spiel existiert nicht mehr.', null, null, null, null, null, '0', '4', '0', '0', null);
+
+DELETE FROM `gossip_texts` WHERE entry BETWEEN -3990325 AND -3990300;
 INSERT INTO `gossip_texts` VALUES ('-3990300', 'Create Game', null, null, 'Spiel Erstellen', null, null, null, null, null, null);
 INSERT INTO `gossip_texts` VALUES ('-3990301', 'Join Game', null, null, 'Spiel Beitreten', null, null, null, null, null, null);
 INSERT INTO `gossip_texts` VALUES ('-3990302', 'Close', null, null, 'Schließen', null, null, null, null, null, null);
