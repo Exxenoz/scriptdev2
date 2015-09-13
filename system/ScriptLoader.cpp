@@ -8,6 +8,7 @@
 extern void AddSC_battleground();
 
 // custom
+extern void AddSC_who_is_the_killer();
 
 // examples
 extern void AddSC_example_creature();
@@ -474,6 +475,7 @@ void AddScripts()
     AddSC_battleground();
 
     // custom
+    AddSC_who_is_the_killer();
 
     // examples
     AddSC_example_creature();
